@@ -39,7 +39,7 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding:10px;
 }
 nav {
   padding: 10px 0;
@@ -71,9 +71,7 @@ nav {
   line-height: 30px;
   color: #fff;
 }
-img {
-  background-color: #f81214;
-}
+
 .logininbtn {
   background-color: #fcc000;
   font-weight: 700;
@@ -202,6 +200,7 @@ a {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .footer-logo {
   text-align: center;
@@ -236,12 +235,16 @@ a {
   color: #518fbd;
   margin-top: 10px;
 }
+.ads-content {
+  margin-left: 15px;
+}
 .ads-content h2 {
   font-weight: 700;
   font-size: 64px;
   line-height: 100%;
   color: #fcc000;
   margin-bottom: 10px;
+ 
 }
 .ads-content h3 {
   color: #f81214;
@@ -252,4 +255,65 @@ a {
 }
 .ads-content p {
   margin-bottom: 10px;
+}
+
+
+
+/* Mobile Phones */
+@media only screen and (min-width: 600px) {
+  
+.mobile-content h1{
+  font-size: 45px;
+
+}
+.mobile-content p{
+  font-size: 35px;
+
+}
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+
+}
+
+/* Small Laptops */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+.stores {
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.order-ads {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 99px;
+}
+.hero-section-content{
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+}
+
+/* Laptops/Desktops */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .stores {
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1201px) {
+  
 }
